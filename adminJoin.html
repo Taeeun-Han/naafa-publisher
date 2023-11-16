@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colon:B ADMIN JOIN</title>
+
+    <!--Open Graph-->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Colon:B Consulting" />
+    <meta property="og:title" content="Colon:B Consulting" />
+    <meta property="og:description" content="Colon:B 교육 컨설팅 교육 자료 Admin 페이지 입니다." />
+    <meta property="og:image" content="./img/openGraph.png" />
+    <meta property="og:url" content="https://Colon:B-consulting.co.kr" />
+
+    <!--파비콘-->
+    <link rel="icon" href="./favicon.png" />
+
+    <!--브라우저 스타일 초기화-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+
+    <!--Google Fonts - 나눔고딕-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- Google Fonts - Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+    <!--Google Material Icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="adminJoin_wrap">
+        <div class="inner">
+            <div class="txt01">
+                <p>[기본정보]</p>
+            </div>
+
+            <div class="txt02">
+                <label for="userid">
+                    <p>아이디</p>
+                    <input type="text" name="userid" id="userid" placeholder="아이디를 입력하세요.">
+                </label>
+                <label for="userpw">
+                    <p>비밀번호</p>
+                    <input type="text" name="userpw" id="userpw" placeholder="비밀번호를 입력하세요. (영문자 숫자 포함 6자 이상 20자 이내)">
+                </label>
+                <label for="userrepw">
+                    <p>비밀번호 확인</p>
+                    <input type="text" name="userrepw" id="userrepw" placeholder="비밀번호를 재입력하세요." class="userrepw">
+                    <button class="confirm">확인</button>
+                </label>
+                <label for="username">
+                    <p>이름</p>
+                    <input type="text" name="username" id="username" placeholder="이름을 입력하세요.">
+                </label>
+                <label for="phone">
+                    <p>휴대폰 번호</p>
+                    <input type="text" name="phone" id="phone" placeholder="휴대폰 번호 '-' 없이 입력하세요.">
+                </label>
+            </div>
+
+            <div class="txt03">
+                <button class="cancel">취소</button>
+                <a href="./adminJoinConfirm.html">
+                    <button class="join">회원가입</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

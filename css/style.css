@@ -1,0 +1,260 @@
+.adminJoin_wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adminJoin_wrap .inner {
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 100px;
+  box-shadow: 10px 10px 15px rgb(120, 120, 120);
+}
+.adminJoin_wrap .inner .txt01 {
+  font: 600 17px/1.3 "Nanum Gothic";
+}
+.adminJoin_wrap .inner .txt02 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.adminJoin_wrap .inner .txt02 label p {
+  margin-bottom: 10px;
+  font: 600 14px/1.3 "Montserrat";
+}
+.adminJoin_wrap .inner .txt02 label input {
+  width: 300px;
+  height: 35px;
+  border: 1px solid #8b8b8b;
+  border-radius: 50px;
+  font: 400 11px/1.3 "Nanum Gothic";
+  letter-spacing: 0.5px;
+  padding-left: 10px;
+}
+.adminJoin_wrap .inner .txt02 label .userrepw {
+  width: 220px;
+}
+.adminJoin_wrap .inner .txt02 label .confirm {
+  width: 80px;
+  height: 35px;
+  background-color: #444;
+  border: 1px solid #444;
+  color: #fff;
+  border-radius: 50px;
+  font: 400 12px/1.3 "Nanum Gothic";
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+.adminJoin_wrap .inner .txt03 button {
+  width: 100px;
+  height: 35px;
+  background-color: #444;
+  border: 1px solid #444;
+  color: #fff;
+  border-radius: 50px;
+  font: 400 12px/1.3 "Nanum Gothic";
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+.adminJoin_wrap .inner .txt03 .cancel {
+  margin-right: 20px;
+}
+
+.adminJoinConfirm_wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adminJoinConfirm_wrap .inner {
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 100px;
+  width: 50%;
+  box-shadow: 10px 10px 15px rgb(120, 120, 120);
+}
+.adminJoinConfirm_wrap .inner .txt01 {
+  font: 600 20px/1.3 "Nanum Gothic";
+}
+.adminJoinConfirm_wrap .inner .txt02 {
+  font: 500 15px/2 "Nanum Gothic";
+  text-align: center;
+}
+.adminJoinConfirm_wrap .inner .txt03 a button {
+  width: 200px;
+  height: 35px;
+  background-color: #444;
+  border: 1px solid #444;
+  color: #fff;
+  border-radius: 50px;
+  font: 400 12px/1.3 "Nanum Gothic";
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+/*COMMON*/
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #333;
+  overflow: hidden;
+  background-color: #dcddd8;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  display: block;
+}
+
+.line {
+  width: 70%;
+  height: 1px;
+  background-color: #ddd;
+}
+
+/*INNER*/
+.inner {
+  width: 1180px;
+  margin: 0 auto;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+section {
+  width: 1180px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .inner {
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 10px 10px 15px rgb(120, 120, 120);
+  background-color: #fff;
+}
+section .inner .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  gap: 100px;
+  width: 50%;
+  height: 100%;
+  background: url(../img/background.jpg);
+  color: #fff;
+  padding: 0px 130px;
+  letter-spacing: 1px;
+}
+section .inner .left .txt {
+  text-align: right;
+  font: 700 45px/1.3 "Montserrat";
+}
+section .inner .left .webadd {
+  font: 500 15px/1.3 "Montserrat";
+}
+section .inner .right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+section .inner .right .txt01 {
+  font: 600 15px/1.3 "Montserrat";
+}
+section .inner .right .txt02 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+section .inner .right .txt02 label p {
+  margin-bottom: 10px;
+  font: 600 16px/1.3 "Montserrat";
+}
+section .inner .right .txt02 label input {
+  width: 300px;
+  height: 35px;
+  border: 1px solid #8b8b8b;
+  border-radius: 50px;
+  font: 400 12px/1.3 "Nanum Gothic";
+  letter-spacing: 0.5px;
+  padding-left: 10px;
+}
+section .inner .right .submit {
+  position: relative;
+}
+section .inner .right .submit input[type=submit] {
+  width: 150px;
+  height: 35px;
+  background-color: #444;
+  border: 1px solid #444;
+  font: 500 13px/1 "Montserrat";
+  color: #fff;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+section .inner .right .txt03 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section .inner .right .txt03 p {
+  font: 400 14px/1.3 "Nanum Gothic";
+  margin-bottom: 15px;
+}
+section .inner .right .txt03 button {
+  width: 150px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #444;
+  border: 1px solid #444;
+  border-radius: 50px;
+  color: #fff;
+  font: 400 13px/1.3 "Nanum Gothic";
+}
+section .inner .right .txt04 {
+  font: 500 11px/1 "Montserrat";
+}
+
+/*# sourceMappingURL=style.css.map */
